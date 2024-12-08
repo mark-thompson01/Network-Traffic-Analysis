@@ -30,15 +30,15 @@ Tcpdump is a command-line tool used to capture and analyze network traffic. It a
 With traffic flowing, it's time to capture it using tcpdump:
 
 - **Basic Capture**:
-  tcpdump -i eth0
+  **tcpdump -i eth0**
 Captures all traffic on the specified network interface. 
 
 - **Filter Captiure**:
-  tcpdump -i eth0 port 80
+  **tcpdump -i eth0 port 80**
 Captures HTTP traffic only, focusing on web interactions.
 
 - **Advanced Filters**:
-  tcpdump -i eth0 src 10.38.1.113 and dst port 22
+  **tcpdump -i eth0 src 10.38.1.113 and dst port 22**
 Captures SSH traffic originating from the Kali VM to the Ubuntu VM.
 
 
