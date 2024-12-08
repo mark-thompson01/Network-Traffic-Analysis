@@ -26,4 +26,20 @@ The lab environment consists of three interconnected VMs:
 > Windows 10 VM: Generates user activity such as web browsing and file transfers.  
 > Ubuntu Linux VM: Hosts an HTTP server and other network services for interaction.
 
+These machines are connected via a virtual network to ensure controlled and reproducible results. 
+
+## Generating Network Traffic
+To produce traffic for analysis, traffic is realistically simulated and varied network interactions:
+
+1. Web Browsing:
+   > Use a browser or curl oon the Windows 10 VM to access a webpage hosted on the Ubuntu VM.
+
+2. File Transfers via SSH:
+   > Establish an SSH session from Kali to Ubuntu and use scp to transfer files. This simulates secure file transfer.
+
+3. Ping Sweeps and Network Scans:
+   > Conduct a ping sweep or a network scan from Kali using tools like nmap to identify active hosts. This generates ICMP and SYN packets. 
+
+4. Simulated Malicious Activity:
+   > Use tools like hping3 on Kali to create malformed or suspicious packets, mimicking attack patterns. 
 
