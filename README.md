@@ -61,6 +61,10 @@ SSH connection from Kali VM to Ubuntu VM successful. Before proceeding further, 
 
 ![Test File Creation and Transfer to Ubuntu.PNG](Images/Test%20File%20Creation%20and%20Transfer%20to%20Ubuntu.PNG)
 
+File transfer verification on Ubuntu VM. 
+
+![File Transfer Verification.PNG](Images/File%20Transfer%20Verification.PNG)
+
 
 3. **Simulated Malicious Activity:**
    > Use tools like hping3 on Kali to create malformed or suspicious packets, mimicking attack patterns.
