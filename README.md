@@ -12,9 +12,7 @@ The primary goals of this lab are:
 
 2. To save captured traffic to a file for further inspection using Wireshark.  
 
-3. To analyze captured traffic and uncover insights relevant to cybersecurity scenarios.  
-
-4. To generate and examine diverse network traffic, including simulated malicious activity.
+3. To generate and examine diverse network traffic, including simulated malicious activity.
 
 ## Lab Setup
 The lab environment consists of two interconnected VMs:
