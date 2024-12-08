@@ -59,13 +59,6 @@ To produce traffic for analysis, traffic is realistically simulated and varied n
 3. **Simulated Malicious Activity:**
    > Use tools like hping3 on Kali to create malformed or suspicious packets, mimicking attack patterns.
 
-### **Ping Sweeps and Network Scans:**
-
-### **FIle Transfers via SSH:**
-
-### **Simulated Malicious Activity:**
-Here, I'm going to use hpign3 to generate different form of traffic patterns to further analyze in Wireshark.
-
    
 ## Saving Captures for Analysis
 To preserve captured traffic for analysis with Wireshark, use the -w option:
