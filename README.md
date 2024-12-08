@@ -47,17 +47,23 @@ Captures SSH traffic originating from the Kali VM to the Ubuntu VM.
 ## Generating Network Traffic
 To produce traffic for analysis, traffic is realistically simulated and varied network interactions:
 
-1. **Web Browsing:**
-   > Use a browser or curl on the Windows 10 VM to access a webpage hosted on the Ubuntu VM.
+1. **Ping Sweeps and Network Scans:**
+   > Conduct a ping sweep or a network scan from Kali using tools like fping to identify active hosts. This generates ICMP and SYN packets. 
+
 
 2. **File Transfers via SSH:**
    > Establish an SSH session from Kali to Ubuntu and use scp to transfer files. This simulates secure file transfer.
 
-3. **Ping Sweeps and Network Scans:**
-   > Conduct a ping sweep or a network scan from Kali using tools like fping to identify active hosts. This generates ICMP and SYN packets. 
 
-4. **Simulated Malicious Activity:**
+3. **Simulated Malicious Activity:**
    > Use tools like hping3 on Kali to create malformed or suspicious packets, mimicking attack patterns.
+
+### **Ping Sweeps and Network Scans:**
+
+### **FIle Transfers via SSH:**
+
+### **Simulated Malicious Activity:**
+Here, I'm going to use hpign3 to generate different form of traffic patterns to further analyze in Wireshark.
 
    
 ## Saving Captures for Analysis
