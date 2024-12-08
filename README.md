@@ -32,7 +32,7 @@ These machines are connected via a virtual network to ensure controlled and repr
 To produce traffic for analysis, traffic is realistically simulated and varied network interactions:
 
 1. Web Browsing:
-   > Use a browser or curl oon the Windows 10 VM to access a webpage hosted on the Ubuntu VM.
+   > Use a browser or curl on the Windows 10 VM to access a webpage hosted on the Ubuntu VM.
 
 2. File Transfers via SSH:
    > Establish an SSH session from Kali to Ubuntu and use scp to transfer files. This simulates secure file transfer.
@@ -61,6 +61,26 @@ Captures SSH traffic originating from the Windows 10 VM to the Ubuntu VM.
 
 
 ## Saving Captures for Analysis
+To preserve captured traffic for analysis with Wireshark, use the -w option:
+tcpdump -i eth0 -w network_capture.pcap
+This saves the traffic to a PCAP file, which can be loaded into Wireshark for detailed inspection.
+
+## Analyzing Traffic with Wireshark
+Wireshark allows for in-depth examination of network data:
+
+1. **Load the Capture:** Open the network_capture.pcap file in Wireshark
+
+2. **Apply Filters:** Use Wireshark's powerful filtering capabilities to isolate specific types of traffic, such as HTTP, ICMP, or SSH.
+   
+3. **Identify Pattterns and Anomalies**:
+   - Examine HTTP requests and responses to analyze web activity.
+   - Investigate SSH traffic for unauthorized access attempts.
+   - Detect unusual packet structures indicative of malicious behavior.
+  
+
+ ## Real World Application
+ This lab demonstrates how tcpdump and Wireshark can be used in a professional setting to monitor, diagnose, and secure network environments. From identifying potential intrusions to analyzing legitimate traffic patterns, these tools provide cybersecurity professionals with critical visibility into network activity. 
+
 
 
 
