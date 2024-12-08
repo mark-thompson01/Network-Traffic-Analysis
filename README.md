@@ -47,7 +47,7 @@ To produce traffic for analysis, traffic is realistically simulated and varied n
 ## Capturing Traffic with tcpdump
 With traffic flowing, it's time to capture it using tcpdump:
 
-- **Basic Capture
+- **Basic Capture**
 
 
 
