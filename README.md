@@ -18,7 +18,7 @@ The primary goals of this lab are:
 The lab environment consists of two interconnected VMs:
 
 > **Kali Linux VM:** Used for capturing traffic with tcpdump and analyzing it with Wireshark.   
-> **Ubuntu Linux VM:** Hosts an SSH server and HTTP Python server on port 8000. 
+> **Ubuntu Linux VM:** Hosts an SSH server and HTTP Python server on port 80. 
 
 These machines are connected via a virtual network to ensure controlled and reproducible results. 
 
