@@ -55,6 +55,8 @@ To produce traffic for analysis, traffic is realistically simulated and varied n
 2. **File Transfers via SSH:**
    > Establish an SSH session from Kali to Ubuntu and use scp to transfer files. This simulates secure file transfer.
 
+![SSH Login.PNG](Images/SSH%20Login.PNG)
+
 
 3. **Simulated Malicious Activity:**
    > Use tools like hping3 on Kali to create malformed or suspicious packets, mimicking attack patterns.
