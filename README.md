@@ -47,15 +47,15 @@ To produce traffic for analysis, traffic is realistically simulated and varied n
 ## Capturing Traffic with tcpdump
 With traffic flowing, it's time to capture it using tcpdump:
 
-- **Basic Capture**
+- **Basic Capture**:
   tcpdump -i eth0
 Captures all traffic on the specified network interface. 
 
-- **Filter Captiure**
+- **Filter Captiure**:
   tcpdump -i eth0 port 80
 Captures HTTP traffic only, focusing on web interactions.
 
-- **Advanced Filters**
+- **Advanced Filters**:
   tcpdump -i eth0 src 10.38.1.115 and dst port 22
 Captures SSH traffic originating from the Windows 10 VM to the Ubuntu VM.
 
