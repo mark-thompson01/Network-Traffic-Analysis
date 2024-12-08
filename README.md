@@ -51,6 +51,7 @@ To produce traffic for analysis, traffic is realistically simulated and varied n
 ![arp-scan fping and nmap sn.PNG](Images/arp-scan fping and nmap sn.PNG)
 
 
+
 2. **File Transfers via SSH:**
    > Establish an SSH session from Kali to Ubuntu and use scp to transfer files. This simulates secure file transfer.
 
