@@ -22,9 +22,9 @@ The primary goals of this lab are:
 ## Lab Setup
 The lab environment consists of three interconnected VMs:
 
-> Kali Linux VM: Used for capturing traffic with tcpdump and analyzing it with Wireshark.  
-> Windows 10 VM: Generates user activity such as web browsing and file transfers.  
-> Ubuntu Linux VM: Hosts an HTTP server and other network services for interaction.
+> **Kali Linux VM:** Used for capturing traffic with tcpdump and analyzing it with Wireshark.  
+> **Windows 10 VM:** Generates user activity such as web browsing and file transfers.  
+> **Ubuntu Linux VM:** Hosts an HTTP server and other network services for interaction.
 
 These machines are connected via a virtual network to ensure controlled and reproducible results. 
 
