@@ -48,7 +48,7 @@ To produce traffic for analysis, traffic is realistically simulated and varied n
 1. **Ping Sweeps and Network Scans:**
    > Conduct a ping sweep or a network scan from Kali using tools like fping to identify active hosts. This generates ICMP and SYN packets.
 
-![arp-scan fping and nmap sn.PNG](Images/arp-scan fping and nmap sn.PNG)
+![arp-scan fping and nmap sn.PNG](Images/arp-scan%20fping%20and%20nmap%20sn.PNG)
 
 
 
