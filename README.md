@@ -57,6 +57,9 @@ To produce traffic for analysis, traffic is realistically simulated and varied n
 
 ![SSH Login.PNG](Images/SSH%20Login.PNG)
 
+SSH connection from Kali VM to Ubuntu VM successful. Before proceeding further, I'll create a test file on the Kali VM. 
+![Test File Created on Kali.PNG](Images/Test%20File%20Created%20on%Kali.PNG)
+
 
 3. **Simulated Malicious Activity:**
    > Use tools like hping3 on Kali to create malformed or suspicious packets, mimicking attack patterns.
