@@ -128,6 +128,12 @@ The commands ran in this lab produce various traffic types on computer networks.
 
 - **ARP-Scan Traffic**
 
+![Lots of ARP.PNG](Images/Lots%20of%20ARP.PNG)
+
+![ARP Request.PNG](Images/ARP%20Request.PNG)
+
+![ARP Reply.PNG](Images/ARP%20Reply.PNG)
+
 
 
 - **Ping Sweep Traffic**
