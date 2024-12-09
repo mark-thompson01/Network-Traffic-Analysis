@@ -123,6 +123,18 @@ Wireshark allows for in-depth examination of network data:
 Let's further examine the network_capture.pcap file. 
 
 The commands ran in this lab produce various traffic types on computer networks. In this lab, I've captured the various traffic types to simulate reconnaissance, attacks, and legitimate activity. In this section, the most interesting findings will be analyzed. 
+
+### Reconnaissance Traffic
+
+- **ARP-Scan Traffic**
+
+
+
+- **Ping Sweep Traffic**
+
+
+
+- **Nmap Scan Traffic**
   
 
  ## Real World Application
