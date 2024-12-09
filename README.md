@@ -79,7 +79,7 @@ File transfer verification on Ubuntu VM.
 
 **hping flood on port 80**
 
-![hping flood on port 80 116.PNG](Images/hping%20flood%20on%20port%2080%20116.PNG)
+![hping port 80 flood.PNG](Images/hping%20port%2080%20flood.PNG)
 
 **hping icmp flood**
 
@@ -105,6 +105,8 @@ File transfer verification on Ubuntu VM.
 To preserve captured traffic for analysis with Wireshark, use the -w option:
 tcpdump -i eth0 -w network_capture.pcap
 This saves the traffic to a PCAP file, which can be loaded into Wireshark for detailed inspection.
+
+![tcpdump capture start 2.PNG](Images/tcpdump%20capture%20start%202.PNG)
 
 ## Analyzing Traffic with Wireshark
 Wireshark allows for in-depth examination of network data:
