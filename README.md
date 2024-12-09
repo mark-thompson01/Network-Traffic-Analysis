@@ -83,7 +83,17 @@ File transfer verification on Ubuntu VM.
 
 **hping icmp flood**
 
-*![hping icmp flood 116.PNG](Images/hping%20icmp%20flood%20116.PNG)
+![hping icmp flood 116.PNG](Images/hping%20icmp%20flood%20116.PNG)
+
+**hping fragmented packets**
+
+![hping Fragmented Packets 116.PNG](Images/hping%20Fragmented%20Packets%20116.PNG)
+
+**hping data injection**
+
+![hping data injection.PNG](Images/hping%20data%20injection.PNG)
+
+
 
    
 ## Saving Captures for Analysis
