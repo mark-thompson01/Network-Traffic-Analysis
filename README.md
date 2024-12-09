@@ -115,12 +115,14 @@ Wireshark allows for in-depth examination of network data:
 
 2. **Apply Filters:** Use Wireshark's powerful filtering capabilities to isolate specific types of traffic, such as HTTP, ICMP, or SSH.
    
-3. **Identify Pattterns and Anomalies**:
+3. **Identify Patterns and Anomalies**:
    - Examine HTTP requests and responses to analyze web activity.
    - Investigate SSH traffic for unauthorized access attempts.
    - Detect unusual packet structures indicative of malicious behavior.
 
-Let's further examine the 
+Let's further examine the network_capture.pcap file. 
+
+The commands ran in this lab produce various traffic types on computer networks. In this lab, I've captured the various traffic types to simulate reconnaissance, attacks, and legitimate activity. In this section, the most interesting findings will be analyzed. 
   
 
  ## Real World Application
