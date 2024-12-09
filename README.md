@@ -56,6 +56,8 @@ To produce traffic for analysis, traffic is realistically simulated and varied n
 
 ![arp-scan fping and nmap sn.PNG](Images/arp-scan%20fping%20and%20nmap%20sn.PNG)
 
+![Ubuntu Port Scan.PNG](Images/Ubuntu%20Port%20Scan.PNG)
+
 
 
 2. **File Transfers via SSH:**
