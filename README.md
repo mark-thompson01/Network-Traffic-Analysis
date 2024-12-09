@@ -97,7 +97,6 @@ File transfer verification on Ubuntu VM.
 
 ![hping spoofed IP source 116.PNG](Images/hping%20spoofed%20IP%20source%20116.PNG)
 
-![hping spoofed IP source 116 2.PNG](Images/hping%20spoofed%20IP%20source%20116%202.PNG)
 
 
 
