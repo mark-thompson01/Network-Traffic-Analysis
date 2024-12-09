@@ -77,6 +77,14 @@ File transfer verification on Ubuntu VM.
 3. **Simulated Malicious Activity:**
    > Use tools like hping3 on Kali to create malformed or suspicious packets, mimicking attack patterns.
 
+**hping flood on port 80**
+
+![hping flood on port 80 116.PNG](Images/hping%20flood%20on%20port%2080%116.PNG)
+
+**hping icmp flood**
+
+*![hping icmp flood 116.PNG](Images/hping%20icmp%20flood%20116.PNG)
+
    
 ## Saving Captures for Analysis
 To preserve captured traffic for analysis with Wireshark, use the -w option:
