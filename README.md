@@ -211,9 +211,7 @@ In addition to that the packets of this traffic have the TCP ACK and PSH flags s
 
  **Custom Payload**
 
-![Malicious.png](Images/Malicious.png)
-
-Here we have the traffic from the command "hping -S -p 443 -d 100 --data "malicious payload" 10.38.1.116"
+ Here we have the traffic from the command "hping -S -p 443 -d 100 --data "malicious payload" 10.38.1.116"
 
 The [RST, ACK] flags indicate that the receiving system (destination) is rejecting the connection. 
 
@@ -227,16 +225,22 @@ The receiving system is responding with TCP Reset (RST), which occurs when a sys
 
 This is often a sign of suspicious or malformed traffic being rejected. 
 
+![Malicious.png](Images/Malicious.png)
+
+
+
 
 - **Spoofed Traffic**
-
-![Spoofed Traffic.png](Images/Spoofed%20Traffic.png)
 
 Here we can see the traffic from the command "hping3 -S -p 80 --spoof 192.168.1.100 10.38.1.116". 
 
 All packets have a spoofed source IP address of 192.168.1.100. 
 
 The actual system sending the traffic (Kali VM) is hiding its true IP by crafting packets with this fake source address. 
+
+![Spoofed Traffic.png](Images/Spoofed%20Traffic.png)
+
+
 
 
 
