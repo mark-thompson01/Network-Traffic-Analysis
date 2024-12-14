@@ -196,7 +196,11 @@ In addition to that the packets of this traffic have the TCP ACK and PSH flags s
 ![TCP SYN Flood on port 80.png](Images/TCP%20SYN%20Flood%20on%20port%2080.png)
 
 
-- **Malformed Packets**
+- **Malformed (Fragmented) Packets**
+
+This traffic highlights the deliberate fragmentation of packets, with the More Fragments (MF) flag set. Fragmented packets, each with a small size of 54 bytes, are sent in rapid succession to overwhelm the target. This technique can evade firewalls and IDS by making reassembly difficult, demonstrating how attackers might bypass detection or consume system resources. 
+
+
 
 ![Malform0.PNG](Images/Malform0.PNG)
 
