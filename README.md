@@ -159,6 +159,15 @@ Port 80 SYN, ACK
 ![SSH Filter.png](Images/SSH%20Filter.png)
 
 
+If we right click on the first SSH packet and select Follow > TCP Stream, we have the TCP Threeway Handshake for the SSH connection. 
+
+![SSH Connection TCP Handshake.png](Images/SSH%20Connection%20TCP%20Handshake.png)
+
+
+
+
+
+
   
 
  ## Real World Application
