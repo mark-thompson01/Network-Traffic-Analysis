@@ -175,9 +175,17 @@ SSH Traffic Details
 ![SSH Traffic Details 4.png](Images/SSH%20Traffic%20Details%204.png)
 
 
-Encrypted Traffic Related to SCP File Transfer
+Encrypted Traffic Related to SCP File Transfer. 
+
+Here we have the consistent traffic pattern of Encrypted Packet Client/Server communication over the SSHv2 protocol. 
+
+The varying packet lengths (len=44, len=628, etc.) indicate data transfer activity. Larget packets suggest chucks of the file being sent, while smaller packets include control messages and acknowledgements. 
+
 
 ![SCP File Transfer.png](Images/SCP%20File%20Transfer.png)
+
+
+
 
 
 
