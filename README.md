@@ -196,6 +196,15 @@ In addition to that the packets of this traffic have the TCP ACK and PSH flags s
 ![TCP SYN Flood on port 80.png](Images/TCP%20SYN%20Flood%20on%20port%2080.png)
 
 
+- **Malformed Packets**
+
+![Malform0.PNG](Images/Malform.PNG)
+
+![Capture 1.PNG](Capture%201.PNG)
+
+
+
+
 
 
 
