@@ -146,6 +146,7 @@ This ping sweep traffic demonstrates how attackes can use ICMP traffic to discov
 
 - **Nmap Scan Traffic**
 
+This capture highlights an Nmap SYN scan, where the scanner sequentually probes multiple ports on the target system. Closed ports respond with RST packets, while open ports (e.g., SSH port port 22) sends SYN-ACK packets. This reconnaissance activity demonstrates the early stages of an attack, providing critical information about a targets network and services.
 
 
 ![Screenshot from 2024-12-13 23-20-00.png](Images/Screenshot%20from%202024-12-13%2023-20-00.png)
