@@ -164,6 +164,17 @@ If we right click on the first SSH packet and select Follow > TCP Stream, we hav
 ![SSH Connection TCP Handshake.png](Images/SSH%20Connection%20TCP%20Handshake.png)
 
 
+SSH Traffic Details
+
+![SSH Traffic Details 1.png](Images/SSH%20Traffic%20Details%201.png)
+
+![SSH Traffic Details 2.png](Images/SSH%20Traffic%20Details%202.png)
+
+![SSH Traffic Details 3.png](Images/SSH%20Traffic%20Details%203.png)
+
+![SSH Traffic Details 4.png](Images/SSH%20Traffic%20Details%204.png)
+
+
 
 
 
