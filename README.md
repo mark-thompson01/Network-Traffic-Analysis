@@ -138,6 +138,8 @@ The commands ran in this lab produce various traffic types on computer networks.
 
 - **Ping Sweep Traffic**
 
+This ping sweep traffic demonstrates how attackes can use ICMP traffic to discover live hosts on a network. The systematic nature of Echo Requests (targeting multiple IPs) and the rapid sequence of packets indicate automated reconnaissance. The responses from specific hosts reveal which devices are active and reachable, providing valuable information for further attacks. This activity underscores the importance of monitoring ICMP traffic and implementing network defenses and block reconnaissance attempts. 
+
 ![ICMP.png](Images/ICMP.png)
 
 
