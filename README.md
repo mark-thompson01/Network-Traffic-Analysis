@@ -138,6 +138,8 @@ The commands ran in this lab produce various traffic types on computer networks.
 
 - **Ping Sweep Traffic**
 
+![ICMP.png](Images/ICMP.png)
+
 
 
 - **Nmap Scan Traffic**
