@@ -17,7 +17,7 @@ The primary goals of this lab are:
 ## Lab Setup
 The lab environment consists of two interconnected VMs:
 
-> **Kali Linux VM:** Used for capturing traffic with tcpdump and analyzing it with Wireshark.   
+> **Kali Linux VM:** Used for generating traffic with hping and capturing traffic with tcpdump and analyzing it with Wireshark.   
 > **Ubuntu Linux VM:** Used as the simulated target to practice on with ports 22 and 80 open. 
 
 These machines are connected via a virtual network to ensure controlled and reproducible results. 
