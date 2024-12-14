@@ -171,15 +171,12 @@ If we right click on the first SSH packet and select Follow > TCP Stream, we hav
 
 SSH Traffic Details
 
-Here we have some information on the key exchange 
+Here we the client/server communication for the key exchange. Packets we can sift through and gather meta data from. 
 
 ![SSH Traffic Details 1.png](Images/SSH%20Traffic%20Details%201.png)
 
 ![SSH Traffic Details 2.png](Images/SSH%20Traffic%20Details%202.png)
 
-![SSH Traffic Details 3.png](Images/SSH%20Traffic%20Details%203.png)
-
-![SSH Traffic Details 4.png](Images/SSH%20Traffic%20Details%204.png)
 
 
 Encrypted Traffic Related to SCP File Transfer. 
