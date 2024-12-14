@@ -128,6 +128,10 @@ The commands ran in this lab produce various traffic types on computer networks.
 
 - **ARP-Scan Traffic**
 
+Address Resolution Protocol - ARP is essential for mapping IP addresses to MAC address on a local network. However, attackers or administrators can exploit ARP to discover devices by sending a series or ARP requests to various IP addresses. This traffic demonstrates an ARP sweep, which systematically queries a range of IP addresses to identify active hosts on a local network. 
+
+This ARP storm demonstrates how attackers or network administrators might query an entire subnet to discover active hosts. The systematic ARP request (who has <IP>?) and the corresponding replies (<IP> is at <MAC>) reveal live devices and their MAC addresses. This behavior is typical of reconnaissance activity and highlights the importance of monitoring ARP traffic to detect and mitigate unauthorized network mapping attempts. 
+
 ![Lots of ARP.PNG](Images/Lots%20of%20ARP.PNG)
 
 ![ARP Request.PNG](Images/ARP%20Request.PNG)
