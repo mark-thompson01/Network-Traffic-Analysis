@@ -203,6 +203,11 @@ In addition to that the packets of this traffic have the TCP ACK and PSH flags s
 ![Capture 1.PNG](Images/Capture%201.PNG)
 
 
+- **Spoofed Traffic**
+
+![Spoofed Traffic.png](Images/Spoofed%20Traffic.png)
+
+
 
 
 
