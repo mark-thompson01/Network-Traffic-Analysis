@@ -203,10 +203,30 @@ In addition to that the packets of this traffic have the TCP ACK and PSH flags s
 ![Capture 1.PNG](Images/Capture%201.PNG)
 
 
+- **Custom Payload**
+
+
+
+
 - **Spoofed Traffic**
 
 ![Spoofed Traffic.png](Images/Spoofed%20Traffic.png)
 
+![Malicious.png](Images/Malicious.png)
+
+Here we have the traffic from the command "hping -S -p 443 -d 100 --data "malicious payload" <IP>"
+
+The [RST, ACK] flags indicate that the receiving system (destination) is rejecting the connection. 
+
+This is expected if the system is not configured to handle the specific payload or if it identifies the packets as malformed or suspicious. 
+
+The packet length (60) matches the size of the TCP headers plus any payload. Since the -d 100 option was used, the payload adds extra bytes to the total length. 
+
+The high volume of packets sequential source ports suggests that this is artificially generated traffic, consistent with hping3's behavior. 
+
+The receiving system is responding with TCP Reset (RST), which occurs when a system does not expect or cannot process a connection request. 
+
+This is often a sign of suspicious or malformed traffic being rejected. 
 
 
 
