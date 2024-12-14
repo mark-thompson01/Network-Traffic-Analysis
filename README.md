@@ -189,7 +189,10 @@ In addition to that the packets of this traffic have the TCP ACK and PSH flags s
 
 - **TCP SYN Flood on Port 80**
 
+These packets represent a TCP SYN Flood attack targeting port 80 on the destination IP. The rapid rate of SYN packets with no corresponding responses indicates a deliberate attempt to exhuast the target's resources by creating half-open TCP connections. This is a classic Denial of Service (DoS) tactic, designed to disrupt services by overwhelming the target's ability to handle legitimate traffic. 
+
 ![TCP SYN Flood on port 80.png](Images/TCP%20SYN%20Flood%20on%20port%2080.png)
+
 
 
 - **Malformed (Fragmented) Packets**
