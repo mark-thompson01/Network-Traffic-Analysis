@@ -155,11 +155,11 @@ This capture highlights an Nmap SYN scan, where the scanner sequentually probes 
 
 ![Screenshot from 2024-12-13 23-20-00.png](Images/Screenshot%20from%202024-12-13%2023-20-00.png)
 
-Port 22 SYN, ACK
+Port 22 SYN, ACK - Port 22 Open 
 
 ![Port 22 Open.png](Images/Port%2022%20Open.png)
 
-Port 80 SYN, ACK
+Port 80 SYN, ACK - Port 80 Open
 
 ![Port 80 Open.png](Images/Port%2080%20Open.png)
 
