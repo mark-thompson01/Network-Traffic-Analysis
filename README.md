@@ -52,7 +52,7 @@ Captures SSH traffic originating from the Kali VM to the Ubuntu VM.
 To produce traffic for analysis, traffic is realistically simulated and varied network interactions:
 
 1. **Ping Sweeps and Network Scans:**
-   > Conduct a ping sweep or a network scan from Kali using tools like fping to identify active hosts. This generates ARP, ICMP, and SYN packets.
+   > Conduct a ping sweep or a network scan from Kali using tools like fping to identify active hosts. These first three commands will generate a very large ARP storm.
 
 ![arp-scan fping and nmap sn.PNG](Images/arp-scan%20fping%20and%20nmap%20sn.PNG)
 
