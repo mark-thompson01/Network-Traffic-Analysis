@@ -177,11 +177,7 @@ SSH Traffic Details
 
 Encrypted Traffic Related to SCP File Transfer. 
 
-Here we have the consistent traffic pattern of Encrypted Packet Client/Server communication over the SSHv2 protocol. 
-
-The sequence and frequency of packets align with the behavior of a file transfer, where data is segmented into chucks and set over the SSH connection. 
-
-The varying packet lengths (len=44, len=628, etc.) indicate data transfer activity. Larget packets suggest chucks of the file being sent, while smaller packets include control messages and acknowledgements. 
+Here we have the consistent traffic pattern of Encrypted Packet Client/Server communication over the SSHv2 protocol. The sequence and frequency of packets align with the behavior of a file transfer, where data is segmented into chucks and set over the SSH connection. The varying packet lengths (len=44, len=628, etc.) indicate data transfer activity. Larget packets suggest chucks of the file being sent, while smaller packets include control messages and acknowledgements. 
 
 
 ![SCP File Transfer.png](Images/SCP%20File%20Transfer.png)
@@ -217,20 +213,9 @@ This traffic highlights the deliberate fragmentation of packets, with the More F
 
  Here we have the traffic from the command "hping -S -p 443 -d 100 --data "malicious payload" 10.38.1.116"
 
-The [RST, ACK] flags indicate that the receiving system (destination) is rejecting the connection. 
-
-This is expected if the system is not configured to handle the specific payload or if it identifies the packets as malformed or suspicious. 
-
-The packet length (60) matches the size of the TCP headers plus any payload. Since the -d 100 option was used, the payload adds extra bytes to the total length. 
-
-The high volume of packets sequential source ports suggests that this is artificially generated traffic, consistent with hping3's behavior. 
-
-The receiving system is responding with TCP Reset (RST), which occurs when a system does not expect or cannot process a connection request. 
-
-This is often a sign of suspicious or malformed traffic being rejected. 
+The [RST, ACK] flags indicate that the receiving system (destination) is rejecting the connection. This is expected if the system is not configured to handle the specific payload or if it identifies the packets as malformed or suspicious. The packet length (60) matches the size of the TCP headers plus any payload. Since the -d 100 option was used, the payload adds extra bytes to the total length. The high volume of packets sequential source ports suggests that this is artificially generated traffic, consistent with hping3's behavior. The receiving system is responding with TCP Reset (RST), which occurs when a system does not expect or cannot process a connection request. This is often a sign of suspicious or malformed traffic being rejected. 
 
 ![Malicious.png](Images/Malicious.png)
-
 
 
 
@@ -238,9 +223,7 @@ This is often a sign of suspicious or malformed traffic being rejected.
 
 Here we can see the traffic from the command "hping3 -S -p 80 --spoof 192.168.1.100 10.38.1.116". 
 
-All packets have a spoofed source IP address of 192.168.1.100. 
-
-The actual system sending the traffic (Kali VM) is hiding its true IP by crafting packets with this fake source address. 
+All packets have a spoofed source IP address of 192.168.1.100. The actual system sending the traffic (Kali VM) is hiding its true IP by crafting packets with this fake source address. 
 
 ![Spoofed Traffic.png](Images/Spoofed%20Traffic.png)
 
