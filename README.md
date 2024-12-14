@@ -198,9 +198,9 @@ In addition to that the packets of this traffic have the TCP ACK and PSH flags s
 
 - **Malformed Packets**
 
-![Malform0.PNG](Images/Malform.PNG)
+![Malform0.PNG](Images/Malform0.PNG)
 
-![Capture 1.PNG](Capture%201.PNG)
+![Capture 1.PNG](Images/Capture%201.PNG)
 
 
 
