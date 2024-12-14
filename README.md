@@ -146,6 +146,8 @@ This ping sweep traffic demonstrates how attackes can use ICMP traffic to discov
 
 - **Nmap Scan Traffic**
 
+
+
 ![Screenshot from 2024-12-13 23-20-00.png](Images/Screenshot%20from%202024-12-13%2023-20-00.png)
 
 Port 22 SYN, ACK
