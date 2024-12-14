@@ -171,6 +171,8 @@ If we right click on the first SSH packet and select Follow > TCP Stream, we hav
 
 SSH Traffic Details
 
+Here we have some information on the key exchange 
+
 ![SSH Traffic Details 1.png](Images/SSH%20Traffic%20Details%201.png)
 
 ![SSH Traffic Details 2.png](Images/SSH%20Traffic%20Details%202.png)
