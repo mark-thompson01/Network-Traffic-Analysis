@@ -146,9 +146,9 @@ The commands ran in this lab produce various traffic types on computer networks.
 
 ![Screenshot from 2024-12-13 23-20-00.png](Images/Screenshot%20from%202024-12-13%2023-20-00.png)
 
-![Port 22 Open.png](Images/Port%2022%Open.png)
+![Port 22 Open.png](Images/Port%2022%20Open.png)
 
-![Port 80 Open.png](Images/Port%2080%20Open)
+![Port 80 Open.png](Images/Port%2080%20Open.png)
   
 
  ## Real World Application
