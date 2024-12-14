@@ -208,9 +208,6 @@ In addition to that the packets of this traffic have the TCP ACK and PSH flags s
 
 
 
-- **Spoofed Traffic**
-
-![Spoofed Traffic.png](Images/Spoofed%20Traffic.png)
 
  **Custom Payload**
 
@@ -229,6 +226,11 @@ The high volume of packets sequential source ports suggests that this is artific
 The receiving system is responding with TCP Reset (RST), which occurs when a system does not expect or cannot process a connection request. 
 
 This is often a sign of suspicious or malformed traffic being rejected. 
+
+
+- **Spoofed Traffic**
+
+![Spoofed Traffic.png](Images/Spoofed%20Traffic.png)
 
 
 
