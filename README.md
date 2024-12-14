@@ -179,10 +179,14 @@ Encrypted Traffic Related to SCP File Transfer.
 
 Here we have the consistent traffic pattern of Encrypted Packet Client/Server communication over the SSHv2 protocol. 
 
+The sequence and frequency of packets align with the behavior of a file transfer, where data is segmented into chucks and set over the SSH connection. 
+
 The varying packet lengths (len=44, len=628, etc.) indicate data transfer activity. Larget packets suggest chucks of the file being sent, while smaller packets include control messages and acknowledgements. 
 
 
 ![SCP File Transfer.png](Images/SCP%20File%20Transfer.png)
+
+In addition to that the packets of this traffic have the TCP ACK and PSH flags set, which are commonly seen during active data transfer. 
 
 
 
