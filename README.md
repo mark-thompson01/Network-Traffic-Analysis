@@ -153,6 +153,12 @@ Port 22 SYN, ACK
 Port 80 SYN, ACK
 
 ![Port 80 Open.png](Images/Port%2080%20Open.png)
+
+- **SSH Traffic**
+
+![SSH Login](Images/SSH%20Login)
+
+
   
 
  ## Real World Application
