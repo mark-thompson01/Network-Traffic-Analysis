@@ -188,6 +188,8 @@ The varying packet lengths (len=44, len=628, etc.) indicate data transfer activi
 
 In addition to that the packets of this traffic have the TCP ACK and PSH flags set, which are commonly seen during active data transfer. 
 
+![ACK PSH.png](Images/ACK%20PSH.png)
+
 
 
 
