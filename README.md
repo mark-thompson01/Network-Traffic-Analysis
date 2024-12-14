@@ -177,7 +177,7 @@ SSH Traffic Details
 
 Encrypted Traffic Related to SCP File Transfer
 
-![SCP File Transfer.png](Images/SCP%20File%20Transfer%20.png)
+![SCP File Transfer.png](Images/SCP%20File%20Transfer.png)
 
 
 
