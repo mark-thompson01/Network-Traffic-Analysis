@@ -156,7 +156,7 @@ Port 80 SYN, ACK
 
 - **SSH Traffic**
 
-![SSH Filter](Images/SSH%20Filter)
+![SSH Filter.png](Images/SSH%20Filter.png)
 
 
   
