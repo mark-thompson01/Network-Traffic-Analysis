@@ -175,6 +175,11 @@ SSH Traffic Details
 ![SSH Traffic Details 4.png](Images/SSH%20Traffic%20Details%204.png)
 
 
+Encrypted Traffic Related to SCP File Transfer
+
+![SCP File Transfer.png](Images/SCP%20File%20Transfer%20.png)
+
+
 
 
 
