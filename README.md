@@ -10,9 +10,9 @@ The primary goals of this lab are:
 
 1. To introduce key tcpdump commands and demonstrate how to capture specific types of traffic.  
 
-2. To save captured traffic to a file for further inspection using Wireshark.  
+2. To generate and examine diverse network traffic, including simulated malicious activity.
 
-3. To generate and examine diverse network traffic, including simulated malicious activity.
+3. To save captured traffic to a file for further inspection using Wireshark.   
 
 ## Lab Setup
 The lab environment consists of two interconnected VMs:
