@@ -67,7 +67,7 @@ Through this project, I have learned how to:
 - Generate different types of network traffic with various commands.
 - Capture and save the network traffic to .PCAP file with the use of tcpdump.
 - How to import a .PCAP file into Wireshark to examine the captured traffic.
-- How to identify different types of traffic patterns.
+- How to identify and analyze different types of traffic patterns.
 
 
 
