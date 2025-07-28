@@ -24,7 +24,7 @@ These machines are connected via a virtual network to ensure controlled and repr
 
 
 ## 🖥️ **Live Project Webpage:**  
-👉 [ARP-Spoofing](https://mark-thompson01.github.io/MTPortfolio/Lab%20Projects/ARP%20Spoofing/)
+👉 [Network Traffic Analysis](https://mark-thompson01.github.io/MTPortfolio/Lab%20Projects/Network%20Traffic%20Analysis/)
 
 
 ---
