@@ -48,6 +48,15 @@ These machines are connected via a virtual network to ensure controlled and repr
 
 
 ## 🔁 How to Recreate This Lab
+- Download and install Oracle VirtualBox
+- Download, install, and setup a Kali Linux VM
+- Download, install, and setup a Linux Ubuntu VM
+- Run tcpdump - save captured traffic to a .PCAP file
+- Generate network traffic with arp-scan, nmap, ssh, scp, hping3, etc
+- Import the .PCAP file into wireshark
+- Perform analysis on the captured network traffic
+
+ 
 
 
 ---
