@@ -31,6 +31,17 @@ These machines are connected via a virtual network to ensure controlled and repr
 
 
 ## 🛠️ Tech Used
+- Oracle VirtualBox
+- Kali Linux
+- Linux Ubuntu
+- arp-scan
+- nmap
+- ssh
+- echo
+- scp
+- hping3
+- tcpdump
+- Wireshark
 
 
 ---
